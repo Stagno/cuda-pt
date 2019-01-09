@@ -5,5 +5,5 @@ The code traces the sampled paths in a full parallel way and it does not diverge
 
 Compile with
 ```
-nvcc ray.cu
+nvcc -o cuda-pt ray.cu
 ```
